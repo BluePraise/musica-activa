@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*
+    Theme Name: Musica Active Thema
+    Theme URI: BluePraise/musica-activa
+    Author: Magalie Chetrit
+    Author URI: https://magaliechetrit.com
+    Description: Child Theme of TwentyTwentyOne
+    Text Domain: twentytwentyone
+    Domain Path: /languages/
+    Version: 0.0.0
+    License: No License
+    License URI: #
+    Template: twentytwentyone
+*/
+
+.site-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-width: 100%;
+    background-color: var(--global--color-background);
+
+}
+
+.site-header.FixedWidget__fixed_widget__pinned {
+    box-shadow: 0px 1px 5px #999;
+}
+/* 
+@media only screen and (min-width: 822px) {
+    .site-header {
+        padding-top: 20px;
+    }
+} */
